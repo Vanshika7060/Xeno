@@ -10,7 +10,7 @@ export default function CampaignHistory() {
 
   return (
     <div>
-      <h3>Campaign History</h3>
+      <h3 color='peach'>Campaign History</h3>
       {campaigns.map(c => (
         <div key={c._id}>{c.name} - {c.stats?.sent || 0} sent</div>
       ))}
